@@ -1,22 +1,90 @@
 <!DOCTYPE html>
-<style>
-  div.container4 {
-    height: 10em;
-    position: relative }
-div.container4 p {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) }
-</style>
+
 <html>
-<body>
- <div style="width:800px; margin:0 auto;">
-  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P7aRR86VfTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<head>
+    <link rel="stylesheet" type="text/css" href="style2.css"/>  
+<style>
+   
+    .myDiv{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        background-image: url("https://img.freepik.com/free-photo/wooden-background_24972-623.jpg?size=626&ext=jpg&ga=GA1.2.1864036120.1595376000");
+        
+
+    }
+
+    .layer1{
+        text-align: center;
+        font-family: 'MedievalSharp', cursive;
+        font-size: 50;
+        color:gold;
+        background-image: url("https://img.freepik.com/free-photo/wooden-background_24972-623.jpg?size=626&ext=jpg&ga=GA1.2.1864036120.1595376000");
+    }
+    #specificPara{
+        text-align: center;
+        font-family: 'Marcellus', serif;;
+        color:gold;
+        background-image: url("https://i.imgur.com/VpsfyId.gif");
+        font-size: x-large;
+        width: min-content;
+    }
+
+    #layer2{
+        background-image: url("http://www.stormthecastle.com/clipart/tileable/Castle%20Bricks%203.png");
+    }
+    .mainpara{
+        margin-right: auto;
+        margin-left: auto;
+        width: 500px;
+        text-align: left;
+    }
+
+
+    @media (max-width: 700px){
+	   
+		.wrap{
+            display: block;
+        }
+        .fires{
+            display: none;
+        }
+	}
+
+    
+
+
+ 
+</style>
+</head>
+<div class="wrap">
+   
+    <div class="c">
+        
+        <body id="layer2">
+            
+            <h1 class="layer1">
+                <img class="fires" src="https://i.gifer.com/y8.gif" width=150/>
+                <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+                A LOW-COST DUNGEONS & DRAGON WEBSITE
+                <img class="fires" src="https://i.gifer.com/y8.gif" width=150/>
+            </h1>
+            <div id="gradient" class="myDiv">
+                <img class="dragons" src="https://i.gifer.com/XoD1.gif" alt="this slowpoke moves"  width=250/>
+                <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/iLWzpzjQJdw?controls=0&amp;start=13" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img class="dragons" src="https://i.gifer.com/ZbHX.gif" alt="this slowpoke moves"  width=250/>
+            </div>
+            <div class="mainpara">
+                <p id="specificPara">
+                    <img src="https://thumbs.gfycat.com/LividMeagerEmperorpenguin-max-1mb.gif">
+                    <br><link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet"> If youve ever played Dragon's Dogma, you'd have this on your favourite video of all time too. 
+                </p>
+            </div>
+        
+            </body>
+    </div>
 
 </div>
-</body>
+
+
 </html>
